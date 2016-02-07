@@ -1,25 +1,25 @@
 [
   {
     "title": "Tokio City",
-    "src": "/img/tokio_yaponiya_gorod_noch_ogni_neboskreby_1920x1200.jpg",
+    "src": "../app/img/tokio_yaponiya_gorod_noch_ogni_neboskreby_1920x1200.jpg",
     "pictures": [
       {
         "title": "Ночная Япония",
-        "src": "/img/nochnaya_yaponiya_1920x1200.jpg"
+        "src": "../app/img/nochnaya_yaponiya_1920x1200.jpg"
       },
       {
         "title": "Мост над рекой",
-        "src": "/img/rainbow-bridge-tokyo-city-river-skyscraper-widescreen-hd-new-wallpaper-free-background-photos.jpg"
+        "src": "../app/img/rainbow-bridge-tokyo-city-river-skyscraper-widescreen-hd-new-wallpaper-free-background-photos.jpg"
       }
 
     ]
   },
   {
     "title": "NY",
-    "src": "/img/water-cityscapes_00367464.jpg",
+    "src": "../app/img/water-cityscapes_00367464.jpg",
     "pictures": [
       {
-        "title": 1,
+        "title": "Каменные джунгли",
         "src": "http://www.tupianworld.cn/pic_201002/201025206875admin122604.jpg"
       },
       {
@@ -31,7 +31,7 @@
   },
   {
     "title": "Питербург",
-    "src": "/img/1309153097_wide-wallpaper-1920x1200-006.jpg",
+    "src": "../app/img/1309153097_wide-wallpaper-1920x1200-006.jpg",
     "pictures": [
       {
         "title": "Зима",
