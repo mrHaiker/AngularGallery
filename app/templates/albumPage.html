@@ -3,12 +3,15 @@
         background: url({{album.src}}) center no-repeat;
     }
     h1 {
-        color: #dedede;
+        color: #666;
+        text-shadow: 3px 3px 6px rgba(0,0,0,.4);
     }
 </style>
 
 <header>
-    <a id="btn-home" href="#/"><i class="fa fa-home"></i></a>
+    <ul class="nav">
+        <li><a id="btn-home" href="#/"><i class="fa fa-home"></i></a></li>
+    </ul>
 </header>
 
 <a href="#/add" class="add-new">
@@ -21,7 +24,7 @@
         <h1>{{album.title}}</h1>
 
         <div class="col-lg-3 col-md-4 col-sm-6" ng-repeat="picture in album.pictures">
-            <a href="#album/{{albumName}}/photo/{{picture.title}}" style="height: 200px" class="thumbnail">
+            <a href="#album/{{albumName}}/photo/{{picture.title}}" class="thumbnail">
                 <p>{{picture.title}}</p>
                 <img ng-src="{{picture.src}}" alt="">
             </a>

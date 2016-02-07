@@ -1,6 +1,26 @@
 body {
   background: #dedede;
 }
+.thumbnail {
+  text-decoration: none;
+  color: #444;
+}
+.thumbnail:hover {
+  text-decoration: none;
+}
+.thumbnail img {
+  max-height: 150px;
+}
+@media (max-width: 992px) {
+  .thumbnail img {
+    height: 250px;
+  }
+}
+@media (max-width: 667px) {
+  .thumbnail img {
+    height: 400px;
+  }
+}
 header {
   height: 80px;
   background: #ffffff;
@@ -24,6 +44,9 @@ header ul.nav li {
   cursor: pointer;
   z-index: 300;
 }
+header .title-nav {
+  color: #444444;
+}
 .album-page .blur {
   position: absolute;
   height: 100%;
@@ -36,8 +59,12 @@ header ul.nav li {
   -moz-filter: blur(5px);
   filter: blur(5px);
 }
+h1 {
+  margin-left: 20px;
+  color: #444444;
+}
 .add-new {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 0;
   height: 50px;
@@ -52,6 +79,7 @@ header ul.nav li {
   transition: all .3s ease;
   cursor: pointer;
   color: #FF5037;
+  z-index: 20;
 }
 .add-new:hover {
   background: #FF5037;

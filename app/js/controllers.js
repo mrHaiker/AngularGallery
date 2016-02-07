@@ -25,7 +25,6 @@ app.controller('addAlbumCtrl', function ($scope, getTemplate) {
     };
     $scope.addNewPic = function() {
         getTemplate.getNewLine(append);
-        //getTemplate.getNewLine(append)
     };
 
 });

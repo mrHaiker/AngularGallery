@@ -1,5 +1,7 @@
 <header>
-    <a id="btn-home" href="#/"><i class="fa fa-home"></i></a>
+    <ul class="nav">
+        <li><a id="btn-home" href="#/"><i class="fa fa-home"></i></a></li>
+    </ul>
 </header>
 
 <div class="container">
@@ -27,9 +29,13 @@
                 </td>
             </tr>
         </table>
-        <div class="btn btn-primary" ng-click="addNewPic()"><i class="fa fa-plus"></i></div>
+        <div>
+            <div class="btn btn-primary" ng-click="addNewPic()"><i class="fa fa-plus"></i></div>
+        </div>
         <br>
-        <input type="submit" class="btn btn-danger" value="Создать">
+        <div>
+            <input type="submit" class="btn btn-danger" value="Создать">
+        </div>
     </form>
 
 </div>

@@ -20,11 +20,11 @@
     "pictures": [
       {
         "title": 1,
-        "src": "http://www.aviatorcameragear.com/wp-content/uploads/2012/07/placeholder-300x187.jpg"
+        "src": "http://www.tupianworld.cn/pic_201002/201025206875admin122604.jpg"
       },
       {
-        "title": 2,
-        "src": "http://www.aviatorcameragear.com/wp-content/uploads/2012/07/placeholder-300x187.jpg"
+        "title": "Вечерний город",
+        "src": "http://www.free-wall-paper.com/wp-content/uploads/2014/03/new-york-skyline-2.jpg"
       }
 
     ]
@@ -34,14 +34,47 @@
     "src": "/img/1309153097_wide-wallpaper-1920x1200-006.jpg",
     "pictures": [
       {
-        "title": 1,
-        "src": "http://www.aviatorcameragear.com/wp-content/uploads/2012/07/placeholder-300x187.jpg"
+        "title": "Зима",
+        "src": "http://img2.goodfon.ru/original/2560x1600/e/e4/gorod-sankt-peterburg-piter-4193.jpg"
       },
       {
-        "title": 2,
-        "src": "http://www.aviatorcameragear.com/wp-content/uploads/2012/07/placeholder-300x187.jpg"
+        "title": "Мост вночи",
+        "src": "http://img2.goodfon.su/original/1680x1050/a/ae/sankt-peterburg-piter-noch.jpg"
+      },
+      {
+        "title": "Корабль",
+        "src": "http://co14.nevseoboi.com.ua/190/18969/1417216154-6018171-www.nevseoboi.com.ua.jpg"
+      },
+      {
+        "title": "Река",
+        "src": "http://img1.goodfon.ru/original/1920x1200/c/aa/sankt-peterburg-piter-st-809.jpg"
+      },
+      {
+        "title": "Небо на городом",
+        "src": "http://d1.files.namba.kg/files/99002031"
       }
-
+    ]
+  },
+  {
+    "title": "Рио-де-жанейро",
+    "src": "https://im0-tub-ua.yandex.net/i?id=67622d96fff5a23f051b3b7c1a95f82f&n=33&h=215&w=323",
+    "pictures": [
+      {
+        "title": "Пляж",
+        "src": "http://randomwallpapers.net/copacabana-1920x1200-wallpaper133994.jpg"
+      },
+      {
+        "title": "Залив",
+        "src": "http://www.arkaplanda.com/download/1762/2560x1600/crop/rio-de-janeiro-wallpaper.jpg"
+      },
+      {
+        "title": "Вид с высоты",
+        "src": "http://oxun.ge/uploads/posts/2012-12/1355153312_littoral-city-rio-de-janeiro.jpg"
+      },
+      {
+        "title": "Вечерний город",
+        "src": "http://www.tapeta-wzgorza-miasto-de-janeiro-rio-brazylia.na-pulpit.com/zdjecia/wzgorza-miasto-de-janeiro-rio-brazylia.jpeg"
+      }
     ]
   }
 ]

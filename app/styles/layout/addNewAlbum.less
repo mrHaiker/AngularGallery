@@ -1,5 +1,5 @@
 .add-new {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 0;
   height: 50px;
@@ -12,6 +12,7 @@
   transition: all .3s ease;
   cursor: pointer;
   color: @orange;
+  z-index: 20;
   &:hover {
     background: @orange;
     border: 1px solid @orange;

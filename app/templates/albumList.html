@@ -8,7 +8,7 @@
     <h1>Albums</h1>
 
     <div class="col-lg-3 col-md-4 col-sm-6" ng-repeat="album in albums">
-        <a href="#album/{{album.title}}" style="height: 200px" class="thumbnail" ng-click="request($index)">
+        <a href="#album/{{album.title}}" class="thumbnail" ng-click="request($index)">
             <p>{{album.title}}</p>
             <img ng-src="{{album.src}}" alt="">
         </a>
