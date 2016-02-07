@@ -1,0 +1,35 @@
+<header>
+    <a id="btn-home" href="#/"><i class="fa fa-home"></i></a>
+</header>
+
+<div class="container">
+    <h3>Добавление нового альбома</h3>
+    <form action="#" ng-submit="add()">
+        <table>
+            <tr>
+                <td>
+                    <input type="text" ng-model="name" placeholder="Название альбома">
+                </td>
+                <td class="preview">{{name}}</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" ng-model="src_cover" placeholder="Обложка альбома">
+                </td>
+                <td><img class="icon-prev" src="{{src_cover}}" alt=""></td>
+            </tr>
+            <tr>
+                <td><h4>Картинки</h4></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" ng-model="src">
+                </td>
+            </tr>
+        </table>
+        <div class="btn btn-primary" ng-click="addNewPic()"><i class="fa fa-plus"></i></div>
+        <br>
+        <input type="submit" class="btn btn-danger" value="Создать">
+    </form>
+
+</div>

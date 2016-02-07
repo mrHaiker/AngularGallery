@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Tokio City",
+    "src": "/img/tokio_yaponiya_gorod_noch_ogni_neboskreby_1920x1200.jpg",
+    "pictures": [
+      {
+        "title": "Ночная Япония",
+        "src": "/img/nochnaya_yaponiya_1920x1200.jpg"
+      },
+      {
+        "title": "Мост над рекой",
+        "src": "/img/rainbow-bridge-tokyo-city-river-skyscraper-widescreen-hd-new-wallpaper-free-background-photos.jpg"
+      }
+
+    ]
+  },
+  {
+    "title": "NY",
+    "src": "/img/water-cityscapes_00367464.jpg",
+    "pictures": [
+      {
+        "title": 1,
+        "src": "http://www.aviatorcameragear.com/wp-content/uploads/2012/07/placeholder-300x187.jpg"
+      },
+      {
+        "title": 2,
+        "src": "http://www.aviatorcameragear.com/wp-content/uploads/2012/07/placeholder-300x187.jpg"
+      }
+
+    ]
+  },
+  {
+    "title": "Питербург",
+    "src": "/img/1309153097_wide-wallpaper-1920x1200-006.jpg",
+    "pictures": [
+      {
+        "title": 1,
+        "src": "http://www.aviatorcameragear.com/wp-content/uploads/2012/07/placeholder-300x187.jpg"
+      },
+      {
+        "title": 2,
+        "src": "http://www.aviatorcameragear.com/wp-content/uploads/2012/07/placeholder-300x187.jpg"
+      }
+
+    ]
+  }
+]

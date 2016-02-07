@@ -1,0 +1,33 @@
+<style>
+    .blur {
+        background: url({{album.src}}) center no-repeat;
+    }
+    h1 {
+        color: #dedede;
+    }
+</style>
+
+<header>
+    <a id="btn-home" href="#/"><i class="fa fa-home"></i></a>
+</header>
+
+<a href="#/add" class="add-new">
+<i class="fa fa-plus"></i>
+</a>
+
+<div class="container album-page">
+    <div class="blur"></div>
+    <div class="wrapper">
+        <h1>{{album.title}}</h1>
+
+        <div class="col-lg-3 col-md-4 col-sm-6" ng-repeat="picture in album.pictures">
+            <a href="#album/{{albumName}}/photo/{{picture.title}}" style="height: 200px" class="thumbnail">
+                <p>{{picture.title}}</p>
+                <img ng-src="{{picture.src}}" alt="">
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
