@@ -30,7 +30,7 @@ var path = {
         img: 'app/img/**/*.*',
         fonts: 'app/fonts/**/*.*',
         json: 'app/json/**/*.*',
-        temp: 'app/templates'
+        temp: 'app/templates/**/*.*'
     },
     watch: { //Тут мы укажем, за изменением каких файлов мы хотим наблюдать
         html: 'app/**/*.html',

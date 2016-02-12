@@ -4,16 +4,14 @@ app.controller('AlbumListCtrl', function ($scope, $http) {
     });
 });
 
-app.controller('AlbumCtrl', function ($scope, $http, $routeParams) {
+app.controller('AlbumCtrl', function ($scope, $http, $routeParams, getData) {
     $scope.albumName = $routeParams['albumName'];
-    $scope.json = $http.get('json/gallery.json').success(function (data) {
-        angular.forEach(data, function(value, key) {
-            if (value.title == $scope.albumName) $scope.album = value;
-        })
-    });
+    getData.getAlbum('json/gallery.json', $scope.albumName, function (data) {
+        $scope.album = data;
+    })
 });
 
-app.controller('addAlbumCtrl', function ($scope, getTemplate) {
+app.controller('addAlbumCtrl', function ($scope, getData) {
     var append = function (data) {
         $('table').append(data);
     };
@@ -24,20 +22,15 @@ app.controller('addAlbumCtrl', function ($scope, getTemplate) {
         console.log($scope.name);
     };
     $scope.addNewPic = function() {
-        getTemplate.getNewLine(append);
+        getData.getNewLine(append);
     };
 
 });
 
-app.controller('PhotoCtrl', function ($scope, $http, $routeParams) {
+app.controller('PhotoCtrl', function ($scope, $routeParams, getData) {
     $scope.albumName = $routeParams['albumName'];
     $scope.pic = $routeParams['photoName'];
-    $scope.json = $http.get('json/gallery.json').success(function (data) {
-        angular.forEach(data, function(value, key) {
-            if (value.title == $scope.albumName) $scope.album = value.pictures;
-        });
-        angular.forEach($scope.album, function(value, key) {
-            if (value.title == $scope.pic) $scope.photo = value;
-        })
+    getData.getPhoto('json/gallery.json', $scope.pic, function (data) {
+        $scope.photo = data;
     });
 });
