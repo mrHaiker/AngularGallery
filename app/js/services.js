@@ -12,6 +12,9 @@ app.factory('getData', function ($http) {
     // Personal
     // ==============================================
 
+    var getAllAlbums = function (src, callback) {
+        getData(src, callback)
+    };
     var getNewLine = function (callback) {
         getData('templates/newLine.html', callback);
     };
@@ -35,6 +38,7 @@ app.factory('getData', function ($http) {
     return {
         getNewLine: getNewLine,
         getPhoto: getPhoto,
-        getAlbum: getAlbum
+        getAlbum: getAlbum,
+        getAllAlbums: getAllAlbums
     }
 });

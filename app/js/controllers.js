@@ -1,10 +1,10 @@
-app.controller('AlbumListCtrl', function ($scope, $http) {
-    $scope.json = $http.get('json/gallery.json').success(function (data) {
+app.controller('AlbumListCtrl', function ($scope,getData) {
+    getData.getAllAlbums('json/gallery.json', function (data) {
         $scope.albums = data;
-    });
+    })
 });
 
-app.controller('AlbumCtrl', function ($scope, $http, $routeParams, getData) {
+app.controller('AlbumCtrl', function ($scope, $routeParams, getData) {
     $scope.albumName = $routeParams['albumName'];
     getData.getAlbum('json/gallery.json', $scope.albumName, function (data) {
         $scope.album = data;
@@ -15,11 +15,13 @@ app.controller('addAlbumCtrl', function ($scope, getData) {
     var append = function (data) {
         $('table').append(data);
     };
-    $scope.name = '';
-    $scope.src_cover = '';
-    $scope.pic = [];
+    $scope.obj = {
+        name: '',
+        src_cover: '',
+        pic: []
+    };
     $scope.add = function () {
-        console.log($scope.name);
+        console.log($scope.obj);
     };
     $scope.addNewPic = function() {
         getData.getNewLine(append);

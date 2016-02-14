@@ -10,22 +10,22 @@
         <table>
             <tr>
                 <td>
-                    <input type="text" ng-model="name" placeholder="Название альбома">
+                    <input type="text" ng-model="obj.name" placeholder="Название альбома">
                 </td>
-                <td class="preview">{{name}}</td>
+                <td class="preview">{{obj.name}}</td>
             </tr>
             <tr>
                 <td>
-                    <input type="text" ng-model="src_cover" placeholder="Обложка альбома">
+                    <input type="text" ng-model="obj.src_cover" placeholder="Обложка альбома">
                 </td>
-                <td><img class="icon-prev" src="{{src_cover}}" alt=""></td>
+                <td><img class="icon-prev" src="{{obj.src_cover}}" alt=""></td>
             </tr>
             <tr>
                 <td><h4>Картинки</h4></td>
             </tr>
             <tr>
                 <td>
-                    <input type="text" ng-model="src">
+                    <input type="text" ng-model="pic">
                 </td>
             </tr>
         </table>
