@@ -81,8 +81,9 @@ gulp.task('dist', ['export'], function () { // отправляем на product
 gulp.task('dist:uncss', function () {   // удаляем неиспользуемые стили
     return gulp.src('dist/css/*.css')
         .pipe(uncss({
-            html: ['app/index.html', 'http://localhost:63342']
+            html: ['app/**/*.html', 'dist/**/*.html', 'http://localhost:9000']
         }))
+        .pipe(minifyCss())
         .pipe(gulp.dest('dist/css'));
 });
 
